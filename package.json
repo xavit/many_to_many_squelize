@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "migrate": "sequelize model:create --name Product --attributes id:uuid,title:string,description:text,price:decimal && sequelize model:create --name Order --attributes id:uuid,address:string && sequelize model:create --name ProductOrder --attributes id:uuid,productId:uuid,orderId:uuid,quantity:decimal",
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1",
