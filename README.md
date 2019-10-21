@@ -26,7 +26,7 @@ sequelize db:migrate
 
 ## Authors
 
-- **Javier Claros** - _Initial work_ - [PurpleBooth](https://github.com/xavit)
+- **Javier Claros** - _Initial work_ - [Github](https://github.com/xavit)
 
 ## License
 
